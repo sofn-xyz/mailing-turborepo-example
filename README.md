@@ -1,6 +1,10 @@
-# Turborepo starter
+# Mailing Turborepo Option 1: different email templates per app
 
-This is an official npm starter turborepo.
+This repo is an example of using mailing inside of a turborepo web app.
+
+The email templates are inside of apps/web. The idea is that each app that sends email will have it's own mailing install, templates, and configuration.
+
+---
 
 ## What's inside?
 
