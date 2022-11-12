@@ -5,7 +5,8 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "TIMING=1 eslint \"**/*.ts*\""
+    "dev": "npx mailing",
+    "lint": "npx mailing export-previews"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
