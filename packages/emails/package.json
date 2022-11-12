@@ -5,11 +5,13 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "dev": "npx mailing"
+    "dev": "npx mailing",
+    "build": "npx mailing server build",
+    "start": "npx mailing server start"
   },
   "devDependencies": {
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "react": "^18.2.0",
